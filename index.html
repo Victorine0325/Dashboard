@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/20a53f504b.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+
+  <body>
+    <section class="flex w-full h-max border-b-2">
+      <!-- Sidebar -->
+      <div class="flex flex-col w-1/6 bg-gray-300 text-white">
+        <div
+          class="h-16 flex flex-row items-center justify-center p-3 gap-2 bg-black"
+        >
+          <div class="flex flex-row gap-5 mt-1">
+            <i
+              class="fa-solid fa-play rotate-180 flex -ml-4 absolute text-lg"
+            ></i>
+            <i class="fa-solid fa-play flex mt-2 text-lg"></i>
+          </div>
+          <h1 class="font-bold text-4xl">CARO</h1>
+        </div>
+
+        <div class="pl-5 pb-7 pt-7 mt-0.5 bg-black">
+          <p class="text-xs p-3">Main</p>
+          <h5
+            class="text-xs p-3 hover:bg-blue-400 hover:rounded-xl hover:w-3/4"
+          >
+            <i class="fa-solid fa-border-all"></i> Overview
+          </h5>
+          <h5
+            class="text-xs p-3 hover:bg-blue-400 hover:rounded-xl hover:w-3/4"
+          >
+            <i class="fa-solid fa-chart-line"></i> Call Analytics
+          </h5>
+          <h5
+            class="text-xs p-3 hover:bg-blue-400 hover:rounded-xl hover:w-3/4"
+          >
+            <i class="fa-solid fa-square-poll-vertical"></i> Call Metrics
+          </h5>
+          <h5
+            class="text-xs p-3 hover:bg-blue-400 hover:rounded-xl hover:w-3/4"
+          >
+            <i class="fa-solid fa-receipt"></i> Reports
+          </h5>
+          <h5
+            class="text-xs p-3 hover:bg-blue-400 hover:rounded-xl hover:w-3/4"
+          >
+            <i class="fa-solid fa-people-group"></i> Team Member
+          </h5>
+          <h5
+            class="text-xs p-3 hover:bg-blue-400 hover:rounded-xl hover:w-3/4"
+          >
+            <i class="fa-solid fa-square-phone"></i> Contacts
+          </h5>
+          <h5
+            class="text-xs p-3 hover:bg-blue-400 hover:rounded-xl hover:w-3/4"
+          >
+            <i class="fa-solid fa-building"></i> Companies
+          </h5>
+
+          <div class="border-b-2 my-8 -ml-2 mr-6"></div>
+
+          <div class="">
+            <p class="text-xs p-3">Help</p>
+            <h5
+              class="text-xs p-3 hover:bg-blue-400 hover:rounded-xl hover:w-3/4"
+            >
+              <i class="fa-solid fa-envelope-open"></i> Supports
+            </h5>
+            <h5
+              class="text-xs p-3 hover:bg-blue-400 hover:rounded-xl hover:w-3/4"
+            >
+              <i class="fa-solid fa-gear"></i>
+              Setting
+            </h5>
+          </div>
+
+          <div class="flex flex-col items-center mt-48 justify-end mr-6">
+            <img
+              src="WhatsApp Image 2025-02-10 à 09.11.48_711e8212.jpg"
+              alt=""
+              class="rounded-full w-16 h-16"
+            />
+            <h6 class="text-xs">Victorine KOUATONOU</h6>
+            <p class="text-xs text-gray-500 font-bold">
+              kouatonouvictorine@gmail.com
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Second division -->
+
+      <div class="w-5/6 bg-gray-300">
+        <!-- Dashboard -->
+        <div
+          class="flex flex-row items-center justify-between bg-white w-full h-16 px-4 gap-20"
+        >
+          <div class="text-black">
+            <h1 class="text-2xl font-bold">Dashboard ✌</h1>
+          </div>
+          <div class="flex flex-row items-center gap-7">
+            <div class="bg-gray-100 flex flex-row items-center px-2 rounded-md">
+              <i class="fa-solid fa-magnifying-glass text-sm"></i>
+              <input
+                type="text"
+                placeholder="Search or type a command "
+                class="bg-gray-100 outline-none text-xs p-2 w-200 justify-center"
+              />
+              <p
+                class="text-xs px-1 ml-5 font-bold rounded-sm shadow-sm bg-white"
+              >
+                <i class="fa-regular fa-square"></i> F
+              </p>
+            </div>
+            <i class="fa-regular fa-bell bg-gray-100 p-2 rounded-2xl"></i>
+            <i class="fa-regular fa-envelope bg-gray-100 p-2 rounded-2xl"></i>
+          </div>
+        </div>
+
+        <!-- Calls division -->
+
+        <div class="flex flex-row w-full gap-5 p-6">
+          <div
+            class="w-1/4 h-36 rounded-2xl pl-5 flex flex-col justify-center bg-white hover:bg-blue-500 hover:text-white"
+          >
+            <i
+              class="fa-solid fa-phone text-pink-500 bg-pink-200 rounded-xl w-8 h-8 flex justify-center items-center"
+            ></i>
+            <p class="mb-2 mt-3 text-xs">Incoming calls</p>
+            <div class="flex flex-row gap-2">
+              <h1 class="text-4xl font-bold">256k</h1>
+              <p class="mt-5 text-xs text-green-500 hover:text-white">
+                +2.5% <i class="fa-solid fa-up-long"></i>
+              </p>
+            </div>
+          </div>
+
+          <div
+            class="w-1/4 h-36 rounded-2xl pl-5 flex flex-col justify-center bg-white hover:bg-blue-500 hover:text-white"
+          >
+            <i
+              class="fa-solid fa-phone-volume text-purple-500 bg-purple-200 rounded-xl w-8 h-8 flex justify-center items-center"
+            ></i>
+            <p class="mb-2 mt-3 text-xs">Answered calls</p>
+            <div class="flex flex-row gap-2">
+              <h1 class="text-4xl font-bold">136k</h1>
+              <p class="mt-5 text-xs text-green-500">
+                +2.5% <i class="fa-solid fa-up-long"></i>
+              </p>
+            </div>
+          </div>
+
+          <div
+            class="w-1/4 h-36 rounded-2xl pl-5 flex flex-col justify-center bg-white hover:bg-blue-500 hover:text-white"
+          >
+            <i
+              class="fa-solid fa-phone-slash text-yellow-500 bg-yellow-200 rounded-xl w-8 h-8 flex justify-center items-center"
+            ></i>
+            <p class="mb-2 mt-3 text-xs">Abandoned calls</p>
+            <div class="flex flex-row gap-2">
+              <h1 class="text-4xl font-bold">120k</h1>
+              <p class="mt-5 text-xs text-red-500">
+                -0.5% <i class="fa-solid fa-down-long"></i>
+              </p>
+            </div>
+          </div>
+
+          <div
+            class="w-1/4 h-36 rounded-2xl pl-5 flex flex-col justify-center bg-white hover:bg-blue-500 hover:text-white"
+          >
+            <i
+              class="fa-solid fa-comment-dots text-orange-500 bg-orange-200 rounded-xl w-8 h-8 flex justify-center items-center"
+            ></i>
+            <p class="mb-2 mt-3 text-xs">Total calls</p>
+            <div class="flex flex-row gap-2">
+              <h1 class="text-4xl font-bold">376k</h1>
+              <p class="mt-5 text-xs text-green-500">
+                +2.5% <i class="fa-solid fa-up-long"></i>
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Third division -->
+
+        <div class="bg-white mx-6 p-4 gap-5 rounded-md">
+          <div class="flex flex-row justify-between w-full px-3 shadow-sm">
+            <div>
+              <h1 class="font-bold">Overall Call Volume</h1>
+            </div>
+
+            <div class="flex flex-row gap-5">
+              <h5 class="flex flex-row text-xs gap-1 mt-1">
+                <span class="bg-blue-600 px-1 mt-1.5 rounded-sm h-2"></span>
+                <p class="font-semibold">Incoming calls</p>
+              </h5>
+
+              <h5 class="flex flex-row text-xs gap-1 mt-1">
+                <span class="bg-purple-600 px-1 mt-1.5 rounded-sm h-2"></span>
+                <p class="font-semibold">Answered calls</p>
+              </h5>
+            </div>
+          </div>
+
+          <img src="download (3).png" alt="" class="w-3/4 h-80 pl-32 mt-5" />
+        </div>
+
+        <!-- Fourth division -->
+
+        <div>
+          <div class="m-6">
+            <div class="w-full flex flex-row gap-4">
+              <div class="w-1/2 p-3 rounded-xl bg-white">
+                <div class="flex flex-row justify-between mb-2 p-3">
+                  <h3 class="font-bold">Best Agents This Week</h3>
+                  <p class="text-xl -mt-2">...</p>
+                </div>
+
+                <div class="flex flex-row justify-between p-3">
+                  <div class="w-1/4">
+                    <p class="text-xs font-semibold">Agents</p>
+                  </div>
+                  <div class="flex flex-row justify-around w-3/4">
+                    <p class="text-xs font-semibold">Answered</p>
+                    <p class="text-xs font-semibold">Abandoned</p>
+                    <p class="text-xs font-semibold">Cust.Satisfaction</p>
+                  </div>
+                </div>
+
+                <div class="border-b-2 mx-3"></div>
+
+                <div class="flex flex-row justify-between p-3">
+                  <div class="w-1/4">
+                    <p class="text-xs font-semibold">
+                      <i class="fa-solid fa-image-portrait"></i>
+                      Victorine
+                    </p>
+                  </div>
+                  <div class="flex flex-row justify-around w-3/4">
+                    <p class="text-xs font-semibold">120</p>
+                    <p class="text-xs font-semibold">220</p>
+                    <p class="text-xs font-semibold">48.5%</p>
+                  </div>
+                </div>
+
+                <div class="border-b-2 mx-3"></div>
+
+                <div class="flex flex-row justify-between p-3">
+                  <div class="w-1/4">
+                    <p class="text-xs font-semibold">
+                      <i class="fa-solid fa-image-portrait"></i> Victorine
+                    </p>
+                  </div>
+                  <div class="flex flex-row justify-around w-3/4">
+                    <p class="text-xs font-semibold">300</p>
+                    <p class="text-xs font-semibold">100</p>
+                    <p class="text-xs font-semibold">49%</p>
+                  </div>
+                </div>
+
+                <div class="border-b-2 mx-3"></div>
+              </div>
+
+              <div class="w-1/2 p-3 flex flex-col rounded-xl bg-white">
+                <div class="flex flex-row justify-between p-3">
+                  <h3 class="font-bold">Call Geography</h3>
+                  <p class="text-xs font-semibold text-blue-500">
+                    <i class="fa-solid fa-receipt"></i> PDF Reports
+                  </p>
+                </div>
+
+                <img src="Capture.PNG" alt="" class="h-40 mt-2" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
